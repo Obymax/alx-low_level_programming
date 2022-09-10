@@ -1,14 +1,16 @@
+/* C Program to Print Alphabets from a to z */
+
 #include <stdio.h>
-
-int main()
+ 
+int main(void)
 {
-	    char ch;
+	  	char ch;
 
-	        printf("Alphabets from a - z are: \n");
-		    for(ch='a'; ch<='z'; ch++)
-			        {
-					        printf("%c\n", ch);
-						    }
-
-		        return 0;
+		printf("\n List of Alphabets from a to z are : \n");  
+		for(ch = 'a'; ch <= 'z'; ch++)
+		{
+		printf(" %c\t", ch);	
+		}
+				  
+		return 0;
 }
