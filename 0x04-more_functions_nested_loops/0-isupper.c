@@ -1,12 +1,12 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- *  * _isupper - functions that check for uppercase character
- *   * @c: the character
- *    * Return: 1 if c is uppecase overwise 0
+ *  * main - check the code.
+ *   *
+ *    * Return: Always 0.
  */
-
-int _isupper(int c)
+int main(void)
 {
 	    char c;
 
