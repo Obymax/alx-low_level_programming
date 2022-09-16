@@ -10,10 +10,9 @@ int _isupper(int c)
 {
 	    char c;
 
-	        c = 'C';
-		    return 1;
-
-		        c = 'c';
-
-			       return 0;
+	        c = 'A';
+		    printf("%c: %d\n", c, _isupper(c));
+		        c = 'a';
+			    printf("%c: %d\n", c, _isupper(c));
+			        return (0);
 }
