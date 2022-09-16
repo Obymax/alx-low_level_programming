@@ -3,15 +3,19 @@
 /**
  *  * _isdigit - functions that check for digit character
  *   * @c: the character
- *    * Return: 1 if c is uppecase overwise 0
+ *    * Return: 1 if c is a digit overwise 0
  */
 
 int _isdigit(int c)
 {
-		if (c >= 48 && c <= 57)
-				{
-							return (1);
-								}
+	    char c;
 
-			return (0);
+	        printf("Enter a character: ");
+		    scanf("%c",&c);
+
+		        if (isdigit(c) == 0)
+				        return 0;
+			    else
+				             printf("%c is a digit.",c);
+			        return 1;
 }
